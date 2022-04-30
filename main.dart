@@ -2,12 +2,17 @@ import 'dart:math';
 import 'dart:io';
 
 void main(){
-  print('Enter a number: ');
-  String? num1 = stdin.readLineSync();
-  if (num1 == null){ num1 = '0';}
-  print('Enter second number:');
-  String? num2 = stdin.readLineSync();
-  if (num2 == null){ num2 = '0';}
+  print('Enter a colour: ');
+  String? colour = stdin.readLineSync();
+
+  print('Enter a plural noun: ');
+  String? pluralNoun = stdin.readLineSync();
+
+  print('Enter a celebrity: ');
+  String? celebrity = stdin.readLineSync();
+
+  print('Roses are ${colour}');
+  print('${pluralNoun} are blue');
+  print('I love ${celebrity}');
   
-  print(double.parse(num1) + double.parse(num2));
 }
