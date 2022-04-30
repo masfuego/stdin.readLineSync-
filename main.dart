@@ -8,5 +8,5 @@ void main(){
   print('Enter second number:');
   String? num2 = stdin.readLineSync();
   if (num2 == null){ num2 = '0';}
-  print(num1+num2);
+  print(int.parse(num1)+int.parse(num2));
 }
