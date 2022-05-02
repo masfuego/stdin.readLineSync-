@@ -1,10 +1,12 @@
 import 'dart:math';
 import 'dart:io';
 
-void main(){
-  List<int> favNums = [4,2,1];
-  
+void sayHi(String username, int age){
+  print('Hi ${username}, you are ${age}');
+}
 
-  print(favNums.contains(2));
-  
+
+void main(){
+  sayHi('Joe', 26);
+  sayHi('Sam', 32);
 }
