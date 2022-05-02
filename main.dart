@@ -11,6 +11,8 @@ void main(){
 
   String colour = prompt('enter a color: ');
   print(colour);
+  String pluralNoun = prompt('enter a plural noun: ');
+  String celebrity = prompt('enter a celebrity: ');
   
 }
 
