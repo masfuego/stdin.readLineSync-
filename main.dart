@@ -1,12 +1,12 @@
 import 'dart:math';
 import 'dart:io';
 
-void sayHi(String username, int age){
-  print('Hi ${username}, you are ${age}');
+double addNumbers(double num1, double num2){
+  print('order of execution, return keyword last in function');
+  return num1 + num2;
 }
 
 
 void main(){
-  sayHi('Joe', 26);
-  sayHi('Sam', 32);
+  print(addNumbers(5, 10));
 }
